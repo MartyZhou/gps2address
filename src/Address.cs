@@ -38,4 +38,9 @@ namespace Cluj.GPS2Address
     {
         public GoogleAddressInfo[] results { get; set; }
     }
+
+    public struct GoogleAddress{
+        public GoogleAddressInfo Address { get; set; }
+        public GoogleAddressInfo Parent { get; set; }
+    }
 }

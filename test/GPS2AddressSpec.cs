@@ -4,6 +4,7 @@ using Xunit;
 
 namespace Cluj.GPS2Address.UnitTest
 {
+    // use locality as city, if no locality, then use sublocality
     public class GPS2AddressSpec
     {
         [Fact]
